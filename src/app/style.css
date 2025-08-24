@@ -1,5 +1,5 @@
 .welcome {
-  height: 45rem;
+  height: 95vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -8,15 +8,11 @@
   font-optical-sizing: auto;
   font-style: normal;
   background: radial-gradient(
-      circle 40rem at left center,
+      ellipse 60vw 80vh at left center,
       #d3642d30 0%,
       transparent 100%
     ),
-    radial-gradient(circle 30rem at top right, #d32d8e30 0%, transparent 100%),
-    radial-gradient(
-      circle 30rem at bottom right,
-      #4950a230 0%,
-      transparent 100%
-    );
+    radial-gradient(circle 55vw at top right, #d32d8e30 0%, transparent 100%),
+    radial-gradient(circle 55vw at bottom right, #4950a230 0%, transparent 100%);
   background-blend-mode: screen;
 }

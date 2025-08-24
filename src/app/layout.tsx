@@ -16,13 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="flex w-full px-8 py-6 justify-between items-center bg-neutral-900">
+        <header className="flex w-full px-8 py-3 justify-between items-center bg-neutral-900">
           <Image
             src="/FLA_LOGO.png"
             alt="FLA Runners Logo"
-            width={92}
-            height={74}
-            className="w-[92px] h-[74px]"
+            width={88}
+            height={70}
+            className="w-[88px] h-[70px]"
           />
 
           <div className="flex gap-3 text-md">
@@ -49,8 +49,8 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="p-20 bg-neutral-950 flex gap-20 justify-center">
           <div className="flex flex-col gap-2">
-            <h2 className="text-pink-500 text-xl">Quick Links</h2>
-            <hr className="text-pink-500" />
+            <h2 className="text-pink-400 text-2xl">Quick Links</h2>
+            <hr className="text-pink-400" />
             <Link href="/" className="hover:underline">
               Home
             </Link>
@@ -63,8 +63,8 @@ export default function RootLayout({
           </div>
 
           <address className="flex flex-col gap-2 text-sm not-italic">
-            <h2 className="text-pink-500 text-xl">Contact</h2>
-            <hr className="text-pink-500" />
+            <h2 className="text-pink-400 text-2xl">Contact</h2>
+            <hr className="text-pink-400" />
             <Link href="https://maps.google.com/?q=Sabal+Pines+Park">
               <pre>{`Sabal Pines Park #4
 5005 NW 39th Ave.
