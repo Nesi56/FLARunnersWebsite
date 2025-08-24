@@ -51,9 +51,15 @@ export default function RootLayout({
           <div className="flex flex-col gap-2">
             <h2 className="text-pink-500 text-xl">Quick Links</h2>
             <hr className="text-pink-500" />
-            <Link href="/">Home</Link>
-            <Link href="/about">About Us</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/" className="hover:underline">
+              Home
+            </Link>
+            <Link href="/about" className="hover:underline">
+              About Us
+            </Link>
+            <Link href="/contact" className="hover:underline">
+              Contact
+            </Link>
           </div>
 
           <address className="flex flex-col gap-2 text-sm not-italic">
