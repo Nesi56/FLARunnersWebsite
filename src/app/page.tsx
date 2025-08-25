@@ -48,7 +48,7 @@ export default function Home() {
             alt="Our coaches"
             width={564}
             height={409}
-            className="min-h-92 object-cover object-center hidden md:block w-[50vw] lg:w-auto lg:max-w-[50vw]"
+            className="min-h-92 object-cover object-center hidden md:block w-[50vw] lg:w-[30rem]"
           />
         </div>
       </section>
