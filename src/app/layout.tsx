@@ -22,13 +22,15 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="flex w-full px-8 py-3 justify-between items-center bg-neutral-900">
-          <Image
-            src="/FLA_LOGO.png"
-            alt="FLA Runners Logo"
-            width={88}
-            height={70}
-            className="w-[88px] h-[70px]"
-          />
+          <Link href="/">
+            <Image
+              src="/FLA_LOGO.png"
+              alt="FLA Runners Logo"
+              width={88}
+              height={70}
+              className="w-[88px] h-[70px]"
+            />
+          </Link>
 
           <div className="flex gap-3 text-md">
             <Link
@@ -108,7 +110,7 @@ Coconut Creek, FL 33073`}</pre>
               <span>(954) 658-8714</span>
             </Link>
             <Link
-              href="mailto:sfia.roadrunners@gmail.com"
+              href="mailto:sfla.roadrunners@gmail.com"
               className="flex items-center gap-2"
             >
               <svg
@@ -133,7 +135,7 @@ Coconut Creek, FL 33073`}</pre>
                   strokeLinejoin="round"
                 />
               </svg>
-              <span>SFIA.ROADRUNNERS@GMAIL.COM</span>
+              <span>SFLA.ROADRUNNERS@GMAIL.COM</span>
             </Link>
 
             <div className="flex gap-3 mt-2">
